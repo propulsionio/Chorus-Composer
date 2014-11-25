@@ -4,7 +4,7 @@
   "description": "a Chorus environment deployment tool that encapsulates all of the processes into a pm2 deployment process",
   "main": "container.js",
   "scripts": {
-    "start": "node container.js",
+    "start": "node container.js"
   },
   "author": "Zeke Dean",
   "license": "MIT",
