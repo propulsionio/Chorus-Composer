@@ -1,0 +1,65 @@
+[{
+  "name"      : "dashboardadmin",
+  "script"    : "./chorus-dashboard-admin/app.js",
+  "instances" : "1",
+  "env_local" : {
+    "NODE_ENV" : "development",
+    "PORT" : "3004"
+    },
+  "env_development" : {
+    "NODE_ENV" : "devproduction",
+    "PORT" : "3004"
+  },
+  "env_production" : {
+    "NODE_ENV" : "production",
+    "PORT" : "3004"
+  }
+},{
+  "name"      : "dashboardAPI",
+  "script"    : "./chorus-dashboard-api/app.js",
+  "instances" : "1",
+  "env_local" : {
+    "NODE_ENV" : "development",
+    "PORT" : "3005"
+    },
+  "env_development" : {
+    "NODE_ENV" : "devproduction",
+    "PORT" : "3005"
+  },
+  "env_production" : {
+    "NODE_ENV" : "production",
+    "PORT" : "3005"
+  }
+},{ 
+  "name"      : "crsearch",
+  "script"    : "./cr-search-node/app.js",
+  "instances" : "1",
+  "env_local" : {
+    "NODE_ENV" : "development",
+    "PORT" : "3000"
+    },
+  "env_development" : {
+    "NODE_ENV" : "devproduction",
+    "PORT" : "3000"
+  },
+  "env_production" : {
+    "NODE_ENV" : "production",
+    "PORT" : "3000"
+  }
+},{ 
+  "name"      : "daggerjs",
+  "script"    : "./dagger-js/app.js",
+  "instances" : "1",
+  "env_local" : {
+    "NODE_ENV" : "development",
+    "PORT" : "3003"
+    },
+  "env_development" : {
+    "NODE_ENV" : "devproduction",
+    "PORT" : "3003"
+  },
+  "env_production" : {
+    "NODE_ENV" : "production",
+    "PORT" : "3003"
+  }
+}]

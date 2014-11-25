@@ -1,0 +1,15 @@
+[submodule "dagger-js"]
+	path = dagger-js
+	url = https://github.com/propulsionio/dagger-js.git
+[submodule "chorus-dashboard-api"]
+	path = chorus-dashboard-api
+	url = https://github.com/propulsionio/chorus-dashboard-api.git
+[submodule "chorus-fulltext-utility-node"]
+	path = chorus-fulltext-utility-node
+	url = https://github.com/propulsionio/chorus-fulltext-utility-node.git
+[submodule "chorus-dashboard-admin"]
+	path = chorus-dashboard-admin
+	url = https://github.com/propulsionio/chorus-dashboard-admin.git
+[submodule "cr-search-node"]
+	path = cr-search-node
+	url = https://github.com/propulsionio/cr-search-node.git

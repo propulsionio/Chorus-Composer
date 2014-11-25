@@ -1,0 +1,14 @@
+{
+  "name": "ChorusBeanstalk",
+  "version": "0.0.1",
+  "description": "a Chorus environment deployment tool that encapsulates all of the processes into a pm2 deployment process",
+  "main": "container.js",
+  "scripts": {
+    "test": "node container.js"
+  },
+  "author": "Zeke Dean",
+  "license": "MIT",
+  "dependencies": {
+    "pm2": "^0.12.1"
+  }
+}

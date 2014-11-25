@@ -1,0 +1,14 @@
+node_modules/
+node_modules/*/node-modules/ 
+secret
+secret/
+.elasticbeanstalk/
+.elasticbeanstalk/*
+cr-search-node
+cr-search-node/
+chorus-dashboard-admin
+chorus-dashboard-admin/
+chorus-dashboard-api
+chorus-dashboard-api/
+dagger-js
+dagger-js/
